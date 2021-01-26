@@ -16,7 +16,10 @@ async def a_MakeScreenshot(url, selector=None, filename='screenshoot.png', path=
 
     await page.goto(url)
 
-    properties = {'path': _file_path}
+    properties = {
+        'path': _file_path,
+        'omitBackground': True
+        }
 
     if selector:
         bounding_box = await page.querySelector(selector)
