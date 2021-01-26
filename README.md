@@ -9,6 +9,6 @@ cd Python_Web_Screenshoter
 python3 -m venv venv
 source venv/bin/activate
 pip install pyppeteer
-python3 main.py `__`for example`__`
+python3 main.py ```**```for example```**```
 ```
 Enjoy
